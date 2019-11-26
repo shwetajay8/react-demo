@@ -7,6 +7,6 @@ let btnClass = [
 'app-home',
 ]
 btnClass = btnClass.join(' ')
-return <button className={btnClass}><b>Home</b></button>
+return <button className={btnClass}><b>{this.props.title}</b></button>
 }
 }

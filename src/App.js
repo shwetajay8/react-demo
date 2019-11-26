@@ -7,9 +7,9 @@ function App() {
 return (
 <div >
 <header className="App-header">
-<Title></Title>
+<Title title='Demo Project'></Title>
 <Logo></Logo>
-<Home></Home>
+<Home title="Home" ></Home>
 </header>
 <body className="App-main" >
 <p className="container"> BizX Demo project
