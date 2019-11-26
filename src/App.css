@@ -1,22 +1,79 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
+  }
+  
+  .App-logo {
   height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+  }
+  
+  .App-title {
+  position: sticky;
+  text-align: left;
+  border:none;
+  width:40%;
+  height: 10px;
+  }
+  .App-logo {
+  position: sticky;
+  text-align: center;
+  border:none;
+  width:20%;
+  height: 10px;
+  }
+  .app-home {
+  position: sticky;
+  text-align: right;
+  color: green;
+  border:none;
+  width:30%;
+  height: 10px;
+  }
+  
+  .App-header {
+  width: 100%;
+  padding: 1rem;
+  margin: .5rem 1rem;
+  position:relative;
+  display: inline-block;
+  left: 0 ; right: 0; top: 0;
+  height: 10px;
+  border-bottom: 1px solid #000;
+  }
+  
+  .App-main {
+  position: sticky;
+  margin: auto;
+  margin-top: 250px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: white;
+  background-color: lightgray;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+  bottom: 50px;
+  }
+  
+  .container{
+  width: 80%;
+  align-self: center;
+  margin: 0 auto; /* Center the DIV horizontally */
+  }
+  
+  .App-footer {
+  position: absolute;
+  background-color: lightgray;
+  width: 100%;
+  padding: 1rem;
+  margin: .5rem 1rem;
+  text-align: center;
+  transition: 200ms;
+  left: 0 ; right: 0; bottom: 0;
+  height:[footer-height]
+  }
+  
+  
+  .App-link {
   color: #09d3ac;
-}
+  }
+  
